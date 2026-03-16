@@ -22,7 +22,7 @@ if (isset($_SESSION['user']) && is_array($_SESSION['user']) && !empty($_SESSION[
     <!-- AOS -->
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <link href="<?php echo APP_BASE; ?>/assets/css/style.css" rel="stylesheet">
+    <link href="<?php echo APP_BASE; ?>/frontend/assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -506,8 +506,7 @@ if (isset($_SESSION['user']) && is_array($_SESSION['user']) && !empty($_SESSION[
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <script src="<?php echo APP_BASE; ?>/assets/js/main.js"></script>
+    <script src="<?php echo APP_BASE; ?>/frontend/assets/js/main.js"></script>
 </body>
 
 </html>
-
