@@ -12,27 +12,27 @@ ensure_session();
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-  <link href="<?php echo APP_BASE; ?>/assets/css/style.css" rel="stylesheet">
+  <link href="<?php echo APP_BASE; ?>/frontend/assets/css/style.css" rel="stylesheet">
   <?php if (strpos($_SERVER['PHP_SELF'], '/frontend/sports/') !== false): ?>
-    <link href="<?php echo APP_BASE; ?>/assets/css/sports.css" rel="stylesheet">
+    <link href="<?php echo APP_BASE; ?>/frontend/assets/css/sports.css" rel="stylesheet">
   <?php endif; ?>
   <?php if (strpos($_SERVER['PHP_SELF'], '/frontend/conference/') !== false): ?>
-    <link href="<?php echo APP_BASE; ?>/assets/css/conference.css" rel="stylesheet">
+    <link href="<?php echo APP_BASE; ?>/frontend/assets/css/conference.css" rel="stylesheet">
   <?php endif; ?>
   <?php if (strpos($_SERVER['PHP_SELF'], '/frontend/bank/') !== false): ?>
-    <link href="<?php echo APP_BASE; ?>/assets/css/bank.css" rel="stylesheet">
+    <link href="<?php echo APP_BASE; ?>/frontend/assets/css/bank.css" rel="stylesheet">
   <?php endif; ?>
   <?php if (strpos($_SERVER['PHP_SELF'], '/frontend/security/') !== false): ?>
-    <link href="<?php echo APP_BASE; ?>/assets/css/security.css" rel="stylesheet">
+    <link href="<?php echo APP_BASE; ?>/frontend/assets/css/security.css" rel="stylesheet">
   <?php endif; ?>
   <?php if (strpos($_SERVER['PHP_SELF'], '/frontend/residential/') !== false): ?>
-    <link href="<?php echo APP_BASE; ?>/assets/css/residential.css" rel="stylesheet">
+    <link href="<?php echo APP_BASE; ?>/frontend/assets/css/residential.css" rel="stylesheet">
   <?php endif; ?>
   <?php if (strpos($_SERVER['PHP_SELF'], '/frontend/services/') !== false): ?>
-    <link href="<?php echo APP_BASE; ?>/assets/css/services.css" rel="stylesheet">
+    <link href="<?php echo APP_BASE; ?>/frontend/assets/css/services.css" rel="stylesheet">
   <?php endif; ?>
   <?php if (strpos($_SERVER['PHP_SELF'], '/frontend/mall/') !== false): ?>
-    <link href="<?php echo APP_BASE; ?>/assets/css/mall.css" rel="stylesheet">
+    <link href="<?php echo APP_BASE; ?>/frontend/assets/css/mall.css" rel="stylesheet">
   <?php endif; ?>
 </head>
 
@@ -57,4 +57,3 @@ ensure_session();
       </div>
     </div>
   </nav>
-
